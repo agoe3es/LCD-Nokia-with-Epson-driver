@@ -27,9 +27,9 @@ class NokiaLCD
     void clear(byte color);
     void draw_text_line(byte fcolor, byte bcolor,byte x, byte y,char c);
     void rect(byte color, byte x1, byte y1, byte x2, byte y2);
-	void draw_text(byte fcolor, byte bcolor, byte x, byte y,char *text);
-	void put_pixel(byte color, byte x, byte y);
-	void set_box(byte x1, byte y1, byte x2, byte y2);
+    void draw_text(byte fcolor, byte bcolor, byte x, byte y,char *text);
+    void put_pixel(byte color, byte x, byte y);
+    void set_box(byte x1, byte y1, byte x2, byte y2);
 	
   private:
     void shiftBits(byte b);
